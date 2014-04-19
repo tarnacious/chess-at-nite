@@ -20,6 +20,8 @@
 #include "../model/OpeningBook.h"
 #include "../model/evaluate.h"
 
+using std::ifstream;
+
 class ComputerPlayer : public Player {
 public:
     ComputerPlayer(bool use_opening_book = true);

@@ -13,7 +13,6 @@
 
 #include "HumanPlayer.h"
 
-using namespace std;
 
 HumanPlayer::HumanPlayer(): Player() {
     name = "Human Player";

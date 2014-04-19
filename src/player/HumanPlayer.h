@@ -18,7 +18,10 @@
 #include <string>
 #include "Player.h"
 
-using namespace std;
+using std::string;
+using std::vector;
+using std::cout;
+using std::cin;
 
 class HumanPlayer : public Player {
 public:

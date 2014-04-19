@@ -13,7 +13,9 @@
 
 #include "Game.h"
 
-using namespace std;
+using std::string;
+using std::vector;
+using std::cout;
 
 Game::Game(Board* board, Player* new_white_player, Player* new_black_player,
         bool both_human) :
@@ -62,7 +64,7 @@ void Game::play(Player* player1, Player* player2) {
     while (!game_over) {
         color = board -> to_move == WHITE ? "White" : "Black";
         status = update_board_status(board);
-        //if the move (last iteration) was successfull or the undo was valid 
+        //if the move (last iteration) was successfull or the undo was valid
         if (success) {
             cout << *board;
         }

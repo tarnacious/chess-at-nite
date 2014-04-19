@@ -21,7 +21,11 @@
 #include <algorithm>
 #include "../common/extra_utils.h"
 
-using namespace std;
+using std::string;
+using std::vector;
+using std::cout;
+using std::ifstream;
+using std::cerr;
 
 class PGN {
 

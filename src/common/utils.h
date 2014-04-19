@@ -25,7 +25,12 @@
 
 #include "define.h"
 
-using namespace std;
+using std::string;
+using std::vector;
+using std::cout;
+using std::endl;
+using std::stringstream;
+using std::setw;
 
 extern byte lookup_piece(char piece);
 extern void split(const string& str, vector<string>& tokens, const char delimiter);

@@ -23,6 +23,10 @@
 #include "../model/evaluate.h"
 #include "utils.h"
 
+using std::setfill;
+using std::ostream;
+using std::ofstream;
+
 extern int board_status(const Board& board);
 extern int update_board_status(Board* board);
 extern string move_to_algebraic_simple(const move& m, const vector<move>& moves);

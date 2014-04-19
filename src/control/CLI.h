@@ -25,6 +25,9 @@
 #include "../common/utils.h"
 #include "PGN.h"
 
+using std::cerr;
+using std::cin;
+
 class Player;
 class Game;
 class Board;
@@ -67,7 +70,7 @@ private:
     Game* game;
     PGN pgn;
     string message;
-    //when the only human player is black.. 
+    //when the only human player is black..
     bool inverse_board;
     bool both_human;
     //time is in seconds
