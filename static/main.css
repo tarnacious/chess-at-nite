@@ -1,0 +1,64 @@
+#game {
+    position: relative;
+    width: 900px;
+    height: 400px;
+}
+
+#options {
+    top: 112px;
+    left: 66px;
+    position: absolute;
+    z-index: 100;
+    background-color: white;
+    width: 220px;
+    height: 130px;
+    padding: 20px;
+    border:2px solid;
+    border-radius:10px;
+
+}
+
+
+#options span {
+    width: 100px;
+    display: inline-block;
+    text-align: left;
+
+}
+#options select {
+    width: 100px;
+    display: inline-block;
+}
+
+#options div {
+    text-align: center;
+    margin-top: 2px
+}
+
+#options .start {
+    margin-top: 10px;
+    text-align: center;
+}
+#options h3 {
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+#gameover {
+    display: none;
+    top: 112px;
+    left: 66px;
+    position: absolute;
+    z-index: 100;
+    background-color: white;
+    width: 220px;
+    height: 80px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border:2px solid;
+    border-radius:10px;
+    text-align: center;
+}

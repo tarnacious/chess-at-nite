@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="/static/chessboardjs/css/chessboard-0.3.0.min.css"></link>
+        <link rel="stylesheet" type="text/css" href="/static/main.css"></link>
+    </head>
+<body>
+    <div id="game">
+    <div id="gameover">
+        <h3>Game is Drawn</h3>
+        <div>
+            <button>New Game</button>
+        </div>
+    </div>
+    <div id="options">
+        <h3>New Game</h3>
+        <div><span>Black Pieces</span>
+            <select class="black">
+                <option value="human">Human</option>
+                <option value="computer" selected>Computer</option>
+                <option value="random">Random</option>
+            </select>
+            </div>
+        <div><span>White Pieces</span>
+            <select class="white">
+                <option value="human" selected>Human</option>
+                <option value="computer">Computer</option>
+                <option value="random">Random</option>
+            </select>
+            </div>
+        <div><span>Position</span>
+            <select>
+                <option value="start">Start</option>
+            </select>
+            </div>
+            <div class="start">
+                <button>Start Game</button>
+            </div>
+    </div>
+
+
+    <div id="board" style="width: 400px"></div>
+</div>
+        <script type="text/javascript" src="/static/jquery-2.1.0.min.js"></script>
+        <script type="text/javascript" src="/static/chess/chess.min.js"></script>
+        <script type="text/javascript" src="/static/chessboardjs/js/chessboard-0.3.0.js"></script>
+        <script async type="text/javascript" src="bin/chess-at-nite.js"></script>
+        <script type="text/javascript" src="/static/main.js"></script>
+</body>
+</html>
