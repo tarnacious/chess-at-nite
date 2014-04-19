@@ -95,6 +95,7 @@ var handle_message = function(event) {
     var fen = byteArrayToString(event.data.data);
     // fixes a bug where the move number is not incremented correctly.
     fen = fen.split(" ").slice(0, -1).join(" ") + " 1";
+    game.load(fen);
     board.position(game.fen());
     nextMove();
 };
